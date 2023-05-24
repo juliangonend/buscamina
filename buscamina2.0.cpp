@@ -11,6 +11,7 @@ int cercaniaMina(char tablero[5][5],int fila,int columna);
 int main (){
 	int vida;
 	char tablero[5][5];
+	system("color f5");
 	cout<<"      ~BUSCA MINAS~  "<<endl;
 	imprimirColumna(tablero,vida);
 	minasAleatorias(tablero);
